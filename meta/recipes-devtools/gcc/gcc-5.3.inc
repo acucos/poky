@@ -72,6 +72,7 @@ SRC_URI = "\
            file://0040-handle-sysroot-support-for-nativesdk-gcc.patch \
            file://0041-Search-target-sysroot-gcc-version-specific-dirs-with.patch \
            file://0042-Fix-various-_FOR_BUILD-and-related-variables.patch \
+	   file://0042-ARMv5-disable-LDRD-STRD.patch \
            file://0043-libstdc-Support-musl.patch \
            file://0044-Adding-mmusl-as-a-musl-libc-specifier-and-the-necess.patch \
            file://0045-Support-for-arm-linux-musl.patch \
@@ -83,7 +84,7 @@ SRC_URI = "\
            file://0051-Ignore-fdebug-prefix-map-in-producer-string-by-Danie.patch \
            file://0052-nios2-use-ret-with-r31.patch \
            file://0053-expr.c-PR-target-65358-Avoid-clobbering-partial-argu.patch \
-"
+          "
 
 BACKPORTS = ""
 

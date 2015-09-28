@@ -80,6 +80,7 @@ SRC_URI = "\
     file://0063-nativesdk-gcc-support.patch \
     file://0064-handle-target-sysroot-multilib.patch \
     file://0065-gcc-483-universal-initializer-no-warning.patch \
+    file://0065-ARMv5-disable-LDRD-STRD.patch \
     file://0066-cxxflags-for-build.patch \
     file://0067-fix-arm-thumb.patch \
     file://0067-gcc-musl-support.patch \
